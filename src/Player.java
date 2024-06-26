@@ -32,6 +32,6 @@ public class Player {
         System.out.println("piece = " + this.piece.getLocation());
         System.out.println("fvTot = " + fvTot);
         System.out.println("newSquare = " + newSquare.getLocation());
-        System.out.println("-----------------");
+        System.out.println("\n");
     }
 }

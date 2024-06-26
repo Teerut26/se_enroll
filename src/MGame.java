@@ -18,7 +18,7 @@ public class MGame {
 
     public void playGame() {
         while (this.roundCount < 100) {
-            System.out.println("------------------------"+ this.roundCount + "------------------------");
+            System.out.println("------------------------ Round "+ (this.roundCount + 1) + " ------------------------");
             // ผู้เล่นทุกคนได้เล่นครบทุกคนถึงจะนับเป็น 1 รอบ
             this.playRound();
             this.roundCount++;
