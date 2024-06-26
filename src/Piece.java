@@ -1,3 +1,4 @@
+// 6510405601 Teerut Srithongdee
 public class Piece {
     private int location;
 

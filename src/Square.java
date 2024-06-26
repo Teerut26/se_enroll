@@ -1,3 +1,4 @@
+// 6510405601 Teerut Srithongdee
 public class Square {
     private String name;
     private int location;
