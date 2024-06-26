@@ -12,7 +12,7 @@ public class MGame {
         this.board = new Board();
         this.roundCount = 0;
         // สร้าง board แล้วเอา Square ไปใส่ใน board
-        for (int i = 0; i <= 40; i++) {
+        for (int i = 0; i < 40; i++) {
             this.board.addSquare(new Square("Square " + i, i));
         }
     }
